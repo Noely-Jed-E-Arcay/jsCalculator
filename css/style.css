@@ -1,0 +1,65 @@
+h1{
+    font-weight: bold;
+    color: black;
+    text-shadow:  3px 2px 2px rgb(58, 145, 156);
+}
+
+body{
+    background-color: rgb(149, 179, 174);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.holder{
+    background-color: rgb(154, 196, 196);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(60, 83, 54, 0.5);
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: darkslategrey;
+}
+input{
+    color: rgb(18, 100, 82);
+    font-weight: 600;
+}
+.inputbox{
+ margin-bottom: 10px;
+}
+input[type=text]{
+    width: calc(100%-22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 1px;
+    background-color: rgb(11, 182, 131);
+    color: rgb(9, 87, 61);
+    font-weight: 700;
+    font-size: 12px;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+button:hover{
+    background-color: rgb(131, 189, 189);
+    color: rgb(27, 54, 63);
+    transition: 0.2s;
+}
+#result{
+    color: rgb(32, 71, 68);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
