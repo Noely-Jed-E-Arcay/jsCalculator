@@ -49,6 +49,9 @@ button{
     font-weight: 700;
     font-size: 12px;
 }
+.clear{
+    font-weight: bold;
+}
 .btn{
     display: flex;
     justify-content: space-evenly;
@@ -56,10 +59,10 @@ button{
 button:hover{
     background-color: rgb(131, 189, 189);
     color: rgb(27, 54, 63);
-    transition: 0.2s;
+    transition: 0.5s;
 }
 #result{
     color: rgb(32, 71, 68);
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
